@@ -36,4 +36,34 @@ def eje5():
     R = hs + ms + s
     print("hay un total de ", R, " segundos")
 #eje5()
+
+def eje6():
+    n1 = int(input("ingresar base: "))
+    n2 = int(input("ingresar altura: "))
+    R = (n1 * n2) / 2
+    print("La superficie es: ", R)
+#eje6()
+
+def eje7():
+    n1 = int(input("ingrese el primer número: "))
+    n2 = int(input("ingrese el segundo número: "))
+    n3 = int(input("ingrese el tercer número: "))
+    n4 = int(input("ingrese el cuarto número: "))
+    n5 = int(input("ingrese el quinto número: "))
+    n6 = int(input("ingrese el sexto número: "))
+    R = (n1 + n2 + n3 + n4 + n5 + n6) / 6
+    print("El promedio es de: ", R)
+#eje7()
+
+def eje8():
+    n1 = int(input("ingrese un número base: "))
+    n2 = int(input("ingrese el número a calcular: "))
+    R = (n1/n2)*100
+    print("El resultado es: ", R, "%")
+#eje8()
+
+def eje9():
+#eje9()
+
+def eje10():
     
