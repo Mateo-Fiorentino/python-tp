@@ -90,7 +90,11 @@ def eje11():
     CV = 200
     VA = 0.05
     NV = int(input("ingrese el numero de autos vendidos: "))
-    VV = int(input("ingrese el valor de venta de la unidad: "))
+    arr = []
+    for i in range(NV):
+        valor = int(input("ingrese el valor de venta del auto: "))
+        arr.append(valor)
+    VV = sum(arr) / NV if NV > 0 else 0
     R = SM + (CV * NV) + (VA * VV * NV)
-    print("el salario total del vendedor es: ", R)   
-#eje11()
+    print("el salario total del vendedor es: ", R)
+eje11()
